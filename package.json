@@ -1,0 +1,21 @@
+{
+  "name": "syrinx",
+  "version": "0.1.0",
+  "description": "yet another DI library for javascript",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "DI",
+    "dependency",
+    "injection",
+    "IOC"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT"
+}
