@@ -69,7 +69,7 @@ Syrinx.prototype.get = function(deps) {
   }, {});
 
   function fn(mod, args) {
-    var val = mod.value = mod.fn.apply(Object.create(fn.prototype), args);
+    var val = mod.value = mod.fn.apply(null, args);
     mod.isLoaded = true;
     return val
   }
